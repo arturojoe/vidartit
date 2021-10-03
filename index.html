@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Codificación de caracteres / tildes -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título de la web -->
+    <title>VIDART IT</title>
+    
+    <!-- Viewport Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Ícono de la web -->
+    <link rel="shortcut icon" type="image/png" href="img/vidarticon-64.png" />
+
+    <!-- Color de la aplicación -->
+    <meta name="theme-color" content="#7bb9e7" />
+
+    <!-- Optimización para móvil -->
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+
+    <!-- Meta etiquetas PWA para Apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon" href="img/vidarticon-192.png" />
+    <link rel="apple-touch-startup-image" href="img/vidarticon-192.png" />    
+    
+    <!-- Configuración General de la PWA -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Hojas de estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script src="main.js"></script>
+    <script src="sw.js"></script>
+</head>
+    
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div id="logo">
+                <img src="img/logo_vidartit.png" />
+            </div>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="#main-header">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="#services">SERVICIOS</a>
+                    </li>
+                    <li>
+                        <a href="#videos">VIDEOS</a>
+                    </li>
+                    <li>
+                        <a href="#footer">CONTACTO</a>
+                    </li>
+                </ul>
+            </div><!-- end menu -->
+        <div><!-- end container -->
+    </header>
+
+    <div class="clearfix"></div>
+
+    <!-- Publicidad-Slider -->
+    <div id="slider">
+        <div class="container">
+            <h2>Diseño y Desarrollo Web</h2>
+        </div>
+    </div>
+
+    <!-- Servicios -->
+    <div id="services">
+        <div class="container">
+            <h2 class="subheader">Servicios</h2>
+            
+                <div class="service">
+                    <img src="img/1.png"/>
+                    <h3>Plataformas de suscripción y pago recurrentes</h3>
+                    <p>
+                        Sistema en línea con página simple y sección gestión de usuarios con control de suscripción y 
+                        pagos recurrentes por la entrega de un producto o servicio.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <img src="img/2.png"/>
+                    <h3><h3>Sistemas multinivel</h3></h3>
+                    <p>
+                        Sistema de networking con página simple y control de usuarios, incluye diagrama de socios
+                        agregados a la red,  y pagos a tarjetas recurrentes.
+                    </p>
+                </div>
+                
+                <div class="service">
+                    <img src="img/3.png"/>
+                    <h3>Marketplace y Tiendas en línea</h3>
+                    <p>
+                        Sistema de múltiples tiendas en línea, catálogos, carrito y pasarelas de pago.
+                    </p>
+                </div>
+            </div> <!-- End container -->
+        </div> <!-- End servicios -->
+
+        <div class="clearfix"></div>
+
+        <div id="videos">
+            <div class="container">
+                <h2 class="subheader">Videos</h2>
+                
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MvCbPrrQGJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est explicabo placeat officiis voluptatem aliquam neque corrupti officia, cumque voluptate illo id corporis in accusamus repellat vel quasi molestias sunt quos.
+                    </p>
+                </div>
+
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MvCbPrrQGJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est explicabo placeat officiis voluptatem aliquam neque corrupti officia, cumque voluptate illo id corporis in accusamus repellat vel quasi molestias sunt quos.
+                    </p>
+                </div>
+
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MvCbPrrQGJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est explicabo placeat officiis voluptatem aliquam neque corrupti officia, cumque voluptate illo id corporis in accusamus repellat vel quasi molestias sunt quos.
+                    </p>
+                </div>
+            </div>
+        </div> <!--End videos-->
+        
+        <div class="clearfix"></div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <h2 class="subheader">Contacto</h2>
+                <p>
+                    Envia un mensaje en cualquiera de nuestras redes sociales
+                </p>
+                    <ul id="networks">
+                        <li>
+                            <a href="#">
+                                <img src="img/twitter.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/facebook.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/instagram.png" />
+                            </a>
+                        </li>
+                    </ul>
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
